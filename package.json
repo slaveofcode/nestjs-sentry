@@ -15,6 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/slaveofcode/nestjs-sentry"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "clean": "rm -rf dist",
